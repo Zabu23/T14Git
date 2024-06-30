@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsDom felmérés</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">1.feladat</h2>
+        <input type="text" id="f1" oninput="szovegHosszSzamolo()" class="form-control m-4">
+        <p id="karakterszam" style="text-align: center; font-size: 20px;">0 karakter</p>
+
+        <hr>
+
+        <h2 style="text-align: center;">2.feladat</h2>
+        <input type="number" id="xTengely" value="100">
+        <br>
+        <input type="number" id="yTengely" value="100">
+        <br>
+        <button type="button" id="f2gomb" class="btn btn-dark my-3">Kirajzol</button>
+        <div id="rajz" style="height: 100px; width: 100px;">.</div>
+
+
+        <hr>
+
+        <h2 style="text-align: center;">3.feladat</h2>
+
+        <button id="f3gomb" class="btn btn-dark my-3">Kattints ide!</button>
+        <br>
+        <img src="hidingCat.jpg" alt="hidingCat" id="kep" style="width: 200px; height: 200px;">
+
+
+        <hr>
+
+        <h2 style="text-align: center;">4.feladat</h2>
+
+        <div id="hibaUzenetBox">Visszajelző felület</div>
+
+        <label for="email">Adja meg az email címét</label>
+        <input type="email" class="form-control mb-4 w-50" id="email" placeholder="Adja meg az email címét">
+
+        <label for="emailujra">Email cím megerősítése</label>
+        <input type="email" class="form-control mb-4 w-50" id="emailujra" placeholder="Email cím megerősítése">
+
+
+        <button type="button" class="btn btn-dark my-2" id="f4gomb">Ellenőrzés</button>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="jsDom.js"></script>
+</body>
+
+</html>
